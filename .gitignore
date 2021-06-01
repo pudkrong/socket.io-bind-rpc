@@ -26,6 +26,7 @@ coverage
 .nyc_output
 
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -46,6 +47,9 @@ typings/
 
 # TypeScript cache
 *.tsbuildinfo
+
+# Typescript v1 declaration files
+typings/
 
 # Optional npm cache directory
 .npm
@@ -102,3 +106,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# next.js build output
+.next
+
+# JetBrains IDE
+.idea
